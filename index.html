@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Projeto 2</title>
+    <script src="index.js"></script>
+    <link rel='stylesheet' href='index.css'>
+</head>
+<body>    
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>Nome:<input type="text" id="pessoa" name="nome" placeholder="Digite seu nome" maxlength="50" size="30" required />
+            </p>
+            
+            <p>Ano de Nascimento:<input type="number" id="nasc" name="data_nasc" required />
+            </p>
+        
+            <p>Sexo: <input type="radio" id="sexo_M" name="sexo">
+                     <label for="sexo_M"></label>Masculino</label>
+
+                     <input type="radio" id="sexo_F" name="sexo" />
+                     <label for="sexo_F">Feminino</label>
+            </p>
+            
+            <p>Etnia:<input type="radio" id="b" name="cor">
+                     <label for="b">Calcasiano</label> 
+
+                     <input type="radio" id="n" name="cor">
+                     <label for="n">Negro</label> 
+
+                     <input type="radio" id="o" name="cor">
+                     <label for="o">Oriental</label> 
+            </p>
+            
+        </div>
+        <div id="botao">
+            <input type="button" value="Verificar" onclick="verificar()">
+        </div>
+
+        </footer>
+    </section>
+</body>
+</html>
