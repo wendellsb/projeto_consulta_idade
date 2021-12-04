@@ -1,0 +1,53 @@
+body {
+    background: url("foto.jpg");
+    font: normal 10pt Arial;
+    color: rgb(7, 4, 4);
+}
+
+header {
+    color:white;
+    text-align:center;
+}
+
+section {
+    
+    background: white;
+    border-radius: 25px;
+    padding: 10px;
+    width: 400px;
+    margin:auto;
+    box-shadow: 10px 5px 10px rgba(235, 235, 227, 0.329);
+} 
+
+
+footer {
+    font: normal 12pt Arial;
+    color: rgb(3, 1, 1);
+    text-align:center;
+    font-style: inherit;
+    
+}
+#botao {
+    text-align: center;
+}
+
+#linkedin {
+width: 25px;
+height: 25px;
+padding: 5px;
+
+}
+
+#github {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+}
+
+#res {
+    text-align: center;
+}
+
+#foto {
+    text-align: center;
+}
