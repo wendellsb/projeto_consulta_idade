@@ -17,4 +17,24 @@ function verificar(){
         var cor = document.getElementsByName('cor')
         var idade = anoAtual - nasc.value
         var genero = ''
-                    
+        
+        // selecionando sexo
+        if(sexo[0].checked) {
+            genero = 'masculino'
+        } else if(sexo[1].checked){
+            genero = 'feminino'
+        }
+        resposta.innerHTML  = `${nome.value} do sexo ${genero} tem ${idade} anos.`
+        
+        // selecionando etnia do homem 
+        if(genero == 'masculino' && cor[0].checked){
+            //branco
+            if(idade >= 0 && idade < 6){
+                img.src='bebe_homem_branco.png'
+            } else if(idade >= 6 && idade < 18){
+                img.src='adolecente_homem_branco.png'
+            }else if(idade >= 18 && idade < 60){
+                img.src='adulto_homem_branco.png'
+            }else if(idade >= 60 && idade < 120){
+                img.src = 'idoso_homem_branco.png'
+            }            
