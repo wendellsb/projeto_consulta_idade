@@ -17,4 +17,4 @@ function verificar(){
         var cor = document.getElementsByName('cor')
         var idade = anoAtual - nasc.value
         var genero = ''
-            
+                    
