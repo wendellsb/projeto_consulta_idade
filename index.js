@@ -37,4 +37,15 @@ function verificar(){
                 img.src='adulto_homem_branco.png'
             }else if(idade >= 60 && idade < 120){
                 img.src = 'idoso_homem_branco.png'
-            }            
+            }
+        } else if(genero == 'masculino' && cor[1].checked){
+            //negro
+            if(idade >= 0 && idade < 6){
+                img.src='bebe_homem_negro.png'
+            } else if(idade >= 6 && idade < 18){
+                img.src='adolecente_homem_negro.png'
+            }else if(idade >= 18 && idade < 60){
+                img.src='adulto_homem_negro.png'
+            }else if(idade >= 60 && idade < 120){
+                img.src = 'idoso_homem_negro.png'
+            }
