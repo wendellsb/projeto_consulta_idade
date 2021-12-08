@@ -49,3 +49,15 @@ function verificar(){
             }else if(idade >= 60 && idade < 120){
                 img.src = 'idoso_homem_negro.png'
             }
+        }else if(genero == 'masculino' && cor[2].checked){
+            //asiatico
+            if(idade >= 0 && idade < 6){
+                img.src='bebe_homem_asiatico.png'
+            } else if(idade >= 6 && idade < 18){
+                img.src='adolecente_homem_asiatico.png'
+            }else if(idade >= 18 && idade < 60){
+                img.src='adulto_homem_asiatico.png'
+            }else if(idade >= 60 && idade < 120){
+                img.src = 'idoso_homem_asiatico.png'
+            }
+        }
