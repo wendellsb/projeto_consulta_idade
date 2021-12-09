@@ -61,3 +61,17 @@ function verificar(){
                 img.src = 'idoso_homem_asiatico.png'
             }
         }
+
+        // selecionando etnia da mulher
+        if(genero == 'feminino' && cor[0].checked){
+            //branca
+            if(idade >= 0 && idade < 6){
+                img.src='bebe_mulher_branco.png'
+            } else if(idade >= 6 && idade < 18){
+                img.src='adolecente_mulher_branco.png'
+            }else if(idade >= 18 && idade < 60){
+                img.src='adulto_mulher_branco.png'
+            }else if(idade >= 60 && idade < 120){
+                img.src = 'idoso_mulher_branco.png'
+            }
+        } else if(genero == 'feminino' && cor[1].checked){
