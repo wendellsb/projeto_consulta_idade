@@ -1,4 +1,4 @@
-Projeto para consultar dados do usuário
+Projeto para consultar dados do usuário e informar qual foto generica a dele.
 
 Informações pedidas:
 * Nome
