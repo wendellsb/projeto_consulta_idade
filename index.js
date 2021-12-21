@@ -25,7 +25,6 @@ function verificar(){
             genero = 'feminino'
         }
         resposta.innerHTML  = `${nome.value} do sexo ${genero} tem ${idade} anos.`
-        
         // selecionando etnia do homem 
         if(genero == 'masculino' && cor[0].checked){
             //branco
