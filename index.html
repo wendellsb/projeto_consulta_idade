@@ -24,26 +24,56 @@
             <p><label for="nasc" class="form-label input-principal">Ano de Nascimento</label>
                 <input type="text" id="nasc" class="form-control" name="data_nasc" placeholder="1990" required />
             </p>
+            
+            <div class="caixa">
+                <div class="container sexo">
+                    <div class="row">
+                        <div class="col"><span class="input-principal">Sexo</span></div>
+                        <div class="col"><img src="seta.png" class="seta"></div>
+                        <div class="col">
+                            <input type="radio" id="sexo_M" name="sexo">
+                            <label for="sexo_M"></label>Masculino</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class="col">
+                            <input type="radio" id="sexo_F" name="sexo" />
+                            <label for="sexo_F">Feminino</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container etinia">
+                    <div class="row p-0">
+                        <div class="col"><span class="input-principal">Etnia</span></div>
+                        <div class="col"><img src="seta.png" class="seta"></div>
+                        <div class="col">
+                            <input type="radio" id="b" name="cor">
+                            <label for="b">Calcasiano</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class="col">
+                            <input type="radio" id="n" name="cor">
+                            <label for="n">Negro</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class="col">
+                            <input type="radio" id="o" name="cor">
+                            <label for="o">Oriental</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form> 
         
-            <p class="input-principal">Sexo:</p> <input type="radio" id="sexo_M" name="sexo">
-                     <label for="sexo_M"></label>Masculino</label>
-
-                     <input type="radio" id="sexo_F" name="sexo" />
-                     <label for="sexo_F">Feminino</label>
-            
-            
-            <p class="input-principal">Etnia: </p>
-                <input type="radio" id="b" name="cor">
-                     <label for="b">Calcasiano</label> 
-
-                     <input type="radio" id="n" name="cor">
-                     <label for="n">Negro</label> 
-
-                     <input type="radio" id="o" name="cor">
-                     <label for="o">Oriental</label> 
-            
-            
-        </form>
         <div id="div-botao">
             <input type="button" id="botao" value="Verificar" onclick="verificar()">
         </div>

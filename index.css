@@ -17,17 +17,31 @@ section {
     background: rgb(243, 240, 240);
     color: black;
     border-radius: 25px;
-    padding: 10px; 
+   
     width: 400px;
     margin:auto;
     box-shadow: 10px 5px 10px rgba(235, 235, 227, 0.329);
     font-size: 18px;
 } 
 
+.caixa {
+    margin-right: 20px;
+}
+
+.seta {
+    width: 25px;
+}
+
 .input-principal {
     font-weight: bold;
     line-height: 0px;
 }
+
+.sexo {
+    padding-bottom: 20px;
+}
+
+
 
 footer {
     font: normal 12pt Arial;
