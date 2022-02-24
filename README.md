@@ -7,6 +7,7 @@ Informações pedidas:
 * Etinia
 
 De acordo com as informações passadas o sistema devolve uma imagem ilustrativa de seus características.
+Exemplos de tela:
 
 
         ***********************************************
