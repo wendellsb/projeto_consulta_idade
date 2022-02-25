@@ -109,10 +109,8 @@ footer {
 
 @media screen and (max-width: 405px) {
     body {
-
         background-image: none;
-        
-        
+        overflow: hidden;        
     }
 
     .rodape {
