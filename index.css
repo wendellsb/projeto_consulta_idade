@@ -8,12 +8,8 @@ body {
     background-repeat: no-repeat;
 }
 
-header {
-    color:white;
-    text-align:center;
-}
-
 section {
+    
     background: rgb(243, 240, 240);
     color: black;
     border-radius: 25px;
@@ -22,6 +18,12 @@ section {
     box-shadow: 10px 5px 10px rgba(235, 235, 227, 0.329);
     font-size: 18px;
 } 
+
+h2 {
+    color:black;
+    text-align:center;
+    font-weight: bold;
+}
 
 .caixa {
     margin: auto;
@@ -36,12 +38,6 @@ section {
     line-height: 0px;
 }
 
-.sexo {
-    padding-bottom: 20px;
-}
-
-
-
 footer {
     font: normal 12pt Arial;
     color: rgb(3, 1, 1);
@@ -55,22 +51,25 @@ footer {
 }
 
 #botao{
+    text-align: center;
     width: 70%;
     background-color: blue;
     color: aliceblue;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 25px;
-    margin: 15px;
-    padding: 5px;
+    margin-bottom: 10px;
 }
 
 #res {
     text-align: center;
+    font-weight: bold;
 }
+
 
 #foto {
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .rodape {
@@ -80,7 +79,7 @@ footer {
     bottom:0;
     width:100%;
     margin: auto auto;
-    padding: 25px;
+    padding: 1em;
 }
 
 #github, #linkedin {
@@ -94,4 +93,39 @@ footer {
 }
 #linkedin:hover {
     color: rgb(130, 157, 231);
+}
+
+#botao:hover {
+    background-color: black;
+}
+
+#pessoa:hover {
+    background-color: rgb(172, 216, 216);
+}
+
+#nasc:hover {
+    background-color: rgb(172, 216, 216);
+}
+
+@media screen and (max-width: 405px) {
+    body {
+
+        background-image: none;
+        
+        
+    }
+
+    .rodape {
+        display: none;
+    }
+
+    section {
+        border-radius: 0%;
+        height: 100vh;
+    }
+
+    #imagem {
+        width: 80%;
+    }
+
 }
